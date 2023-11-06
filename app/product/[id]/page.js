@@ -36,7 +36,8 @@ export default function Product({ params }) {
           <div className="flex px-4 py-10">
 
             {product?.url 
-              // ? <img className="w-[40%] rounded-lg" src={product?.url+'/280'} /> 
+              // ? <img className="w-[40%] rounded-lg" src={product?.url+'/280'} />
+              //testing 
               ? <img className="w-[40%] rounded-lg" src={product?.url} /> 
               : <div className="w-[40%]"></div> 
             }
