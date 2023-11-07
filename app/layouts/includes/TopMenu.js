@@ -10,8 +10,6 @@ import { useRouter } from "next/navigation";
 import ClientOnly from "../../components/ClientOnly";
 
 
-
-
 <div className="text-center">
     <Link to="/auth" className="flex items-center gap-2 hover:underline cursor-pointer">
         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
@@ -20,7 +18,6 @@ import ClientOnly from "../../components/ClientOnly";
         <BsChevronDown />
     </Link>
 </div>
-
 
 
 
@@ -45,6 +42,8 @@ export default function TopMenu() {
             )
         }
 
+
+
         return (
             <div className="text-center">
                 <button ><Link href="/auth" className="flex items-center gap-2 hover:underline cursor-pointer">
@@ -55,11 +54,13 @@ export default function TopMenu() {
                 </Link></button>
             </div>
 
-            
+
 
         )
     }
-
+    const handleSellButtonClick = () => {
+        router.push('/sell'); // Replace '/Sell' with the correct path to your "Sell" page
+      };
     return (
         <>
             <div id="TopMenu" className="border-b">
@@ -113,6 +114,13 @@ export default function TopMenu() {
                         id="TopMenuRight"
                         className="flex items-center text-[11px] text-[#333333] px-2 h-8"
                     >
+                        <li className="text-center">
+                            <button ><Link href="https://forms.gle/wrEwMzEDje1AdrA19" className="flex items-center gap-2 hover:underline cursor-pointer">
+                                <button onClick={handleSellButtonClick} className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                                    Sell
+                                </button>
+                            </Link></button>
+                        </li>
                         <li
                             onClick={() => router.push('/address')}
                             className="flex items-center gap-2 px-3 hover:underline cursor-pointer"

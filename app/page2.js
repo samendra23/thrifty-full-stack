@@ -8,7 +8,7 @@ export default function Home(){
   const products = [
     {
       id:1,
-      title: "Samendra",
+      title: "Thrifty",
       description: "Lorem10",
       url: "https://picsum.photos",
       price: 6000

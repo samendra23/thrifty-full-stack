@@ -12,7 +12,7 @@ export default function Footer() {
                         <li className="mt-2 py-1 text-xs hover:underline cursor-pointer"> <i>Scientific Calculator</i> </li>
                         <li className="py-1 text-xs hover:underline cursor-pointer"> <i>Books</i> </li>
                         <li className="py-1 text-xs hover:underline cursor-pointer"> <i>Drafter</i> </li>
-                        <li className="py-1 text-xs hover:underline cursor-pointer">  <i> Condom</i></li>
+                        <li className="py-1 text-xs hover:underline cursor-pointer">  <i> Mobiles</i></li>
                     </ul>
                   
 
