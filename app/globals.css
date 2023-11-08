@@ -5,3 +5,7 @@
 nextjs-portal {
     display: none;
   }
+
+body{
+  background-color:#fcf8f5;
+}
