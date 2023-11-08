@@ -42,7 +42,7 @@ export default function Cart() {
                 </div>
               </ClientOnly>
 
-              <div id="GoToCheckout" className="md:w-[33%] absolute top-0 right-0 m-2">
+              {/* <div id="GoToCheckout" className="md:w-[33%] absolute top-0 right-0 m-2">
                   <ClientOnly>
                       <div className="bg-white p-4 border">
                           
@@ -70,7 +70,7 @@ export default function Cart() {
                           </div>
                       </div>
                   </ClientOnly>
-              </div>
+              </div> */}
             </div>
           </div>
 
