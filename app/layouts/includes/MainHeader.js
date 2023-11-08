@@ -40,8 +40,8 @@ export default function MainLayout() {
         <>
             <div id="MainHeader" className="border-b">
                 <nav className="flex items-center justify-between w-full mx-auto max-w-[1200px]">
-                    <div className="flex items-center w-full bg-white">
-                        <div className="flex lg:justify-start justify-between gap-10 max-w-[1150px] w-full px-3 py-5 mx-auto">
+                    <div className="flex items-center w-full bg-white bg-[#fce5d0]">
+                        <div className="flex lg:justify-start justify-between gap-10 max-w-[1150px]  w-full px-3 py-5 mx-auto">
                             <Link href="/">
                                 <img width="120" src="/images/lg.png" />
                             </Link>
@@ -50,7 +50,7 @@ export default function MainLayout() {
                                 <div className="relative">
                                     
                                     <div className="flex items-center">
-                                        <div className="relative flex items-center border-2 border-gray-900 w-full p-2">
+                                        <div className="relative flex items-center  w-full p-2">
                                             
                                             <button className="flex items-center">
                                                 <AiOutlineSearch size={22}/>
@@ -59,6 +59,7 @@ export default function MainLayout() {
                                             <input 
                                                 className="
                                                     w-full
+                                                    h-10
                                                     placeholder-gray-400
                                                     text-sm
                                                     pl-3
