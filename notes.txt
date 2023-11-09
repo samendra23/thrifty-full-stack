@@ -1,5 +1,5 @@
 SUPABASE:
-    ebay-c
+    thrifty
     u5Fq60cqLHBQw1hoKZjvrtCNZfaT3P
 
 AUTH:
