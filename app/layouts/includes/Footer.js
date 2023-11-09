@@ -7,12 +7,12 @@ export default function Footer() {
                 <div className="flex items-baseline justify-between w-full mx-auto max-w-[1200px] py-10">
                 <ul className="text-gray-700">
                         <li className="font-bold text-lg">
-                            <b><i>Popular Searches</i></b>  
+                            <b>Popular Searches</b>  
                              </li>
-                        <li className="mt-2 py-1 text-xs hover:underline cursor-pointer"> <i>Scientific Calculator</i> </li>
-                        <li className="py-1 text-xs hover:underline cursor-pointer"> <i>Books</i> </li>
-                        <li className="py-1 text-xs hover:underline cursor-pointer"> <i>Drafter</i> </li>
-                        <li className="py-1 text-xs hover:underline cursor-pointer">  <i> Mobiles</i></li>
+                        <li className="mt-2 py-1 text-xs hover:underline cursor-pointer">Scientific Calculator</li>
+                        <li className="py-1 text-xs hover:underline cursor-pointer">Books</li>
+                        <li className="py-1 text-xs hover:underline cursor-pointer">Drafter</li>
+                        <li className="py-1 text-xs hover:underline cursor-pointer">Mobiles</li>
                     </ul>
                   
 
@@ -20,25 +20,25 @@ export default function Footer() {
 
                     <ul className="text-gray-700">
                         <li className="font-bold text-lg">
-                            <b><i>About</i></b>
+                            <b>About</b>
                              </li>
-                        <li className="mt-2 py-1 text-xs hover:underline cursor-pointer"> <i>Company info </i> </li>
-                        <li className="py-1 text-xs hover:underline cursor-pointer"><i>News </i></li>
-                        <li className="py-1 text-xs hover:underline cursor-pointer"><i>Investors </i></li>
-                        <li className="py-1 text-xs hover:underline cursor-pointer"><i> Developer </i></li>
+                        <li className="mt-2 py-1 text-xs hover:underline cursor-pointer">Company info</li>
+                        <li className="py-1 text-xs hover:underline cursor-pointer">News</li>
+                        <li className="py-1 text-xs hover:underline cursor-pointer">Investors</li>
+                        <li className="py-1 text-xs hover:underline cursor-pointer">Developer</li>
                     </ul>
 
                     <ul className="text-gray-700">
-                        <li className="font-bold text-lg"> <b><i>Contact us</i></b> </li>
+                        <li className="font-bold text-lg"> <b>Contact us</b> </li>
                         <li className="mt-2 py-1 text-xs hover:underline cursor-pointer">
-                            <a href="https://www.nitj.ac.in/"><i>nitj</i></a>
+                            <a href="https://www.nitj.ac.in/">NITJ</a>
                         </li>
                         <li className="mt-2 py-1 text-xs hover:underline cursor-pointer">
-                            <a href="https://www.instagram.com/sanghrakshit_/"><i>Instagram</i></a>
+                            <a href="https://www.instagram.com/sanghrakshit_/">Instagram</a>
                             
                         </li>
                         <li className="mt-2 py-1 text-xs hover:underline cursor-pointer">
-                            <a href="https://www.youtube.com/@rummysandwich5365"><i>Youtube</i></a>
+                            <a href="https://www.youtube.com/@rummysandwich5365">Youtube</a>
                             
                         </li>
                     </ul>
