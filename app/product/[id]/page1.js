@@ -7,15 +7,6 @@ import useIsLoading from "../../hooks/useIsLoading"
 import { useCart } from "../../context/cart"
 import { toast } from "react-toastify"
 
-function convertDriveLink(originalLink) {
-    const match = originalLink.match(/\/d\/([^/]+)/);
-    if (match && match[1]) {
-      const fileId = match[1];
-      return `https://drive.google.com/uc?id=${fileId}`;
-    }
-    return originalLink;
-  }
-
 export default function Product({ params }) {
   const cart = useCart()
 
@@ -37,7 +28,6 @@ export default function Product({ params }) {
     getProduct() 
   }, [])
 
-
   return (
     <>
       <MainLayout>
@@ -45,11 +35,12 @@ export default function Product({ params }) {
         <div className="max-w-[1200px] mx-auto">
           <div className="flex px-4 py-10">
 
-                      {
-                          product?.url
-                              ? <img className="w-[40%] rounded-lg" src={convertDriveLink(product?.url)} />
-                              : <div className="w-[40%]"></div>
-                      }
+            {product?.url 
+              // ? <img className="w-[40%] rounded-lg" src={product?.url+'/280'} />
+              //testing 
+              ? <img className="w-[40%] rounded-lg" src={product?.url} /> 
+              : <div className="w-[40%]"></div> 
+            }
 
             <div className="px-4 w-full">
               <div className="font-bold text-xl">{product?.title}</div>

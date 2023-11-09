@@ -2,17 +2,6 @@
 import { useCart } from "../context/cart"
 import { toast } from "react-toastify"
 
-function convertDriveLink(originalLink) {
-    const fileIdMatch = originalLink.match(/\/file\/d\/([^/]+)/);
-    if (fileIdMatch && fileIdMatch[1]) {
-      const fileId = fileIdMatch[1];
-      const convertedLink = `https://drive.google.com/uc?id=${fileId}`;
-      return convertedLink;
-    }
-    return originalLink;
-  }
-  
-
 export default function CartItem({ product }) {
   const cart = useCart()
 
@@ -27,7 +16,7 @@ export default function CartItem({ product }) {
   return (
     <>
         <div className="relative flex justify-start my-2 border w-full p-6">
-        <img src={convertDriveLink(product?.url)} className="rounded-md w-[150px] h-[150px]" />
+            <img src={product?.url} className="rounded-md w-[150px] h-[150px]" />
 
             <div className="overflow-hidden pl-2 w-full">
                 <div className="flex items-center justify-between w-full">
