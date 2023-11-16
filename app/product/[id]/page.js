@@ -44,16 +44,16 @@ export default function Product({ params }) {
 
         <div className="max-w-[1200px] mx-auto">
           <div className="flex px-4 py-10">
-
-                      {
-                          product?.url
-                              ? <img className="w-[40%] rounded-lg" src={convertDriveLink(product?.url)} />
-                              : <div className="w-[40%]"></div>
-                      }
+            
+            {
+            product?.url
+            ? <img className="w-[40%] rounded-lg" src={convertDriveLink(product?.url)} />
+            : <div className="w-[40%]"></div>
+            }
 
             <div className="px-4 w-full">
               <div className="font-bold text-xl">{product?.title}</div>
-              <div className="text-sm text-gray-700 pt-2">Brand New - Full Warranty</div>
+              {/* <div className="text-sm text-gray-700 pt-2">Brand New - Full Warranty</div> */}
 
               <div className="border-b py-1" />
 
